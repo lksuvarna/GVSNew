@@ -1,0 +1,9 @@
+<svg width="37px" height="37px" viewBox="0 0 37 37" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        line-chart-m
+    </title>
+    <defs>
+        <path d="M4.614 34H37v3H0V0h3v30.687l7.695-14.161 12.771 6.996L33.615 6.24l2.587 1.52-11.623 19.792-12.686-6.949L4.614 34z" id="a"/>
+    </defs>
+    <use xlink:href="#a" fill-rule="evenodd"/>
+</svg>

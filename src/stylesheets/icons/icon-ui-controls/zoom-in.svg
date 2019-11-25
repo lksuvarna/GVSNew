@@ -1,0 +1,6 @@
+<svg width="23px" height="23px" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        zoom-in
+    </title>
+    <path d="M7 4v8h2V4H7zM4 9h8V7H4v2zm-.243-5.243a6 6 0 1 0 8.486 8.486 6 6 0 0 0-8.486-8.486zm9.9-1.414A8 8 0 1 1 2.344 13.657 8 8 0 0 1 13.657 2.343zm.636 13.364l7 7 1.414-1.414-7-7-1.414 1.414z" fill="#232323"/>
+</svg>

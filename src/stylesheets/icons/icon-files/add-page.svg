@@ -1,0 +1,9 @@
+<svg width="20px" height="23px" viewBox="0 0 20 23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        add-page
+    </title>
+    <defs>
+        <path d="M11 11V7h2v4h4v2h-4v4h-2v-4H7v-2h4zm9 10V6.58L15.453 2H4v19h16zM2 23V0h14.286L22 5.757V23H2z" id="a"/>
+    </defs>
+    <use fill="#232323" xlink:href="#a" transform="translate(-2)"/>
+</svg>

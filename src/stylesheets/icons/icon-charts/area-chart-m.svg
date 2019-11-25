@@ -1,0 +1,9 @@
+<svg width="37px" height="37px" viewBox="0 0 37 37" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        area-chart-m
+    </title>
+    <defs>
+        <path d="M3 37H0V0h3v30.65l7.976-14.744 13.127 7.222 9.862-17.853.035.019V5.24L37 0v37H3zm1.598-3H34V11.416L25.28 27.2l-13.103-7.21L4.598 34z" id="a"/>
+    </defs>
+    <use xlink:href="#a" fill-rule="evenodd"/>
+</svg>

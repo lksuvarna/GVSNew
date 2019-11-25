@@ -1,0 +1,9 @@
+<svg width="22px" height="22px" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        pie-chart
+    </title>
+    <defs>
+        <path d="M19.93 8A7.005 7.005 0 0 0 14 2.07V8h5.93zm0 2H12V0h2v.055A9.001 9.001 0 0 1 21.945 10H19.93zm-4 2h2.015A9 9 0 1 1 8 4.055V4h2v8h5.93zm0 2H8V6.07A7.002 7.002 0 0 0 9 20a7.002 7.002 0 0 0 6.93-6z" id="a"/>
+    </defs>
+    <use fill="#232323" xlink:href="#a"/>
+</svg>

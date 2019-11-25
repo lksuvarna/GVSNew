@@ -1,0 +1,9 @@
+<svg width="39px" height="39px" viewBox="0 0 39 39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        02_Design/Icons/02_Medium-Light/Files/add-folder-m-l
+    </title>
+    <defs>
+        <path d="M21 31v2H0V6h8.81l5.192 3H37v8h-2v-6H13.465L8.273 8H2v23h19zm9-5v-5h2v5h5v2h-5v5h-2v-5h-5v-2h5z" id="a"/>
+    </defs>
+    <use xlink:href="#a"/>
+</svg>

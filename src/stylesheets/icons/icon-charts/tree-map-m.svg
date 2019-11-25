@@ -1,0 +1,9 @@
+<svg width="37px" height="37px" viewBox="0 0 37 37" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        tree-map-m
+    </title>
+    <defs>
+        <path d="M3 3v31h31V3H3zM0 0h37v37H0V0zm29 29v5h-3v-5h-6v5h-3V20H3v-3h31v3H20v6h14v3h-5z" id="a"/>
+    </defs>
+    <use xlink:href="#a"/>
+</svg>

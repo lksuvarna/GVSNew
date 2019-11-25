@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GVS</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/w3ds-3.3.0.css" >
+
+<link rel="stylesheet" type="text/css" href="stylesheets/w3ds-data-tables.css" >
+<link rel="stylesheet" type="text/css" href="stylesheets/w3ds-prism.css" >
+<link rel="stylesheet" type="text/css" href="stylesheets/masterhead.css" >
+<link rel="stylesheet" type="text/css" href="stylesheets/_font-face.css" >
+<link rel="stylesheet" type="text/css" href="stylesheets/_w3ds-icons.css" >
+<link rel="stylesheet" type="text/css" href="stylesheets/countrydetails.css" >
+<link rel="stylesheet" href="https://w3.ibm.com/w3ds/cdn/VERSION/CSS-FILE">
+<script src="https://w3.ibm.com/w3ds/cdn/VERSION/w3ds.js"></script>
+<!-- print stylesheet MUST follow imported stylesheets -->
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script src="countrydetails.js"></script>
+    
+        
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body onLoad="dpchange()">
+      <div class="ds-grid"> 
+          <a href="https://w3.ibm.com/" id="ds-w3-injectable-nav" data-layout="1" data-height="79" data-breakpoint="md" target="_blank" class="ds-hide-xs ds-display-md-block light md" style="height: 79px; margin-left: 20px;">  
+          <svg id="w3-nav-full-overlay-injectable-open" width="91px" height="99px" viewBox="0 0 71 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><polygon id="path-1" points="0.3828125 0.0936521943 0.3828125 61 35.62839 79 71 61 71 0.151757577"></polygon><filter x="-22.7%" y="-18.8%" width="145.3%" height="137.7%" filterUnits="objectBoundingBox" id="filter-2"><feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology><feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite><feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix></filter><filter x="-22.7%" y="-24.4%" width="145.3%" height="148.8%" filterUnits="objectBoundingBox" id="filter-3"><feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>+_ln+
+          <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite><feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix></filter></defs><g id="w3Masthead" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g><g id="Badge"><g id="Path-2"><use id="mobile-filter" fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use><use id="BadgeFill" fill-rule="evenodd" xlink:href="#path-1"></use></g><text id="w3" class="masthead-svg__text" ds-heading-4><tspan x="21" y="40.85">w3</tspan></text></g></g></g></svg></a>
+          <div class="header">
+          <div class="ds-row ds-shadow-floating ds-margin-bottom-0">
+          <div class="ds-col-19 ds-padding-top-0_8 ds-no-gutter ds-float-lg-right ">
+          <div class="ds-tray-fit-content ds-margin-bottom-0">
+          
+          <span style="cursor:default"  class="ds-button ds-flat ds-bg-neutral-5  ds-padding-left-2  ds-padding-right-2">Home</span>
+          <a href="https://105.w3-969.ibm.com/tools/voice/SPOEProdUI.nsf/EntryPageUI?OpenForm&IN"  class="ds-button ds-flat ds-flat ds-padding-left-2 ds-padding-right-2">Services</a>
+            <a href="https://w3.ibm.com/help/#/article/telephony_gvi_spoe/overview" target="_blank" class="ds-button ds-flat ds-flat ds-padding-left-2 ds-padding-right-2">Help</a>
+          <a href="https://105.w3-969.ibm.com/tools/voice/SPOEProdUI.nsf/feedback?OpenForm&feedback" class="ds-button ds-flat ds-flat ds-padding-left-2 ds-padding-right-2">Feedback</a>
+          <my-app></my-app>
+          
+          </div></div></div></div> 
+          <div class="ds-row hero ds-padding-top-0 ds-padding-bottom-2 ds-padding-top-md-3 ds-padding-bottom-md-3 ds-margin-bottom-3" style="background-repeat: no-repeat; background-position: center center; background-size: cover; background-image: url(images/banner.png);"><div class="ds-col-md-8 ds-offset-md-2 ds-align-text-center"><h3 class="ds-heading-xs-2 ds-heading-lg-2 ds-shadow-text" ><font color="white">Global Voice Services</font></h3>
+          <font color="white">Single entry point for ordering voice services in your country</font> </div></div>
+                
+              
+          
+          
+          <div class="ds-row "><h3 class=" ds-align-text-center ds-heading-2 ds-margin-bottom-0  "><span style="font-size:48px" >Welcome, Suvarna Lakkisetty</span></h3><div><br><div class="ds-row"><h4 class="col ds-align-text-center ds-heading-3 ds-margin-bottom-1"><span style="font-size:30px" >What service are you looking for?</span></h4><div>
+          <div class="ds-row"></div><div class="ds-padding-top-0_5 ds-row ds-align-text-center "><div class="ds-col-sm-4  md-2 xl-5 ds-padding-bottom-1">
+          
+          <input name="searches" value="" onchange="EntryCeck ('searches','SearchDiv')" onkeydown="EntryCeck ('searches','SearchDiv')" onkeypress="return (event.keyCode!=13);
+          EntryCeck ('searches','SearchDiv')" onkeyup="EntryCeck ('searches','SearchDiv')" onclick="EntryCeck ('searches','SearchDiv')" id="searchid" class="ds-input " style="background-image: url('search.png');background-repeat: no-repeat;background-position:right 20px center; " placeholder="Search services...       "  autocomplete="off"></div></div>
+          <div class="ds-row ">
+          <div class="ds-col-sm-4"></div>
+          <div class="ds-col-sm-6"><div  id="SearchDiv" ></div></div>
+          </div></div>
+          <div class="ds-row ds-align-text-center" style="background-color: #f3f3f3;"><div class="
+          ds-col-sm-6   ds-padding-bottom-1_5 ds-padding-right-3_5 ds-align-text-right ds-padding-top-1_5"><a href="https://105.w3-969.ibm.com/tools/voice/SPOEProdUI.nsf/EntryPageUI?OpenForm&IN
+          "><img class="ds-align-text-center ds-border-neutral-5" src='744.png' class="GB" ></img></a></div><div class="ds-col-sm-6 ds-align-text-left ds-padding-top-1"><br><span style="font-size:30px"  class="ds-padding-left-3" >My Country</span><br>
+          <a href="https://105.w3-969.ibm.com/tools/voice/SPOEProdUI.nsf/EntryPageUI?OpenForm&IN
+          " >Click here</a> to view all available <br><span class="ds-padding-left-3">services for India</span>.<br>
+          </div>
+          </div><br><br>
+          <div class="ds-row"><h4 class="col ds-align-text-center ds-heading-4 ds-margin-bottom-0">
+          
+          
+          <span style="font-size:30px" >Most Viewed Services</span></h4><br>
+          <h5 class="col ds-align-text-center ds-heading-5 ds-margin-bottom-0">Find the right services, check their availability, and then choose the way <br>you connect and work together.</h5>
+          </div><br>
+          <div class="ds-row ds-align-text-center ds-padding-left-1 ds-padding-right-1">
+          <div class="ds-col-3 ds-padding-left-1">
+                      <div class="ds-panel">
+                          <div class="ds-panel-container"><p><img src="JABBER.png" height=93px width=93px></img><br><br>Cisco Jabber<p class="ds-text-small ds-align-text-left ds-padding-bottom-2">Cisco Jabber is a multiple platform soft phone application to make and receive phone calls.<br>
+          </p><br><br><span class="button-blue" id="button2">
+              <input type="button" name="next"  class="ds-button ds-secondary ds-margin-bottom-0 ds-padding-top-1 ds-padding-bottom-1" TABINDEX="15" onclick="
+              window.location.href='/tools/voice/SPOEProdUI.nsf/EntryPageUI?OpenForm&VOIP_IN'";	
+              " value="Get Started" >
+            </span>
+          </div>
+                      </div>
+                </div>
+          </div><br>
+          <div class="ds-row ds-bg-dark ds-padding-top-5" style="background-image: url(images/footer.png);background-position:center;background-size: cover;background-repeat:no-repeat;">
+            <div class="ds-col-xs-10 ds-offset-xs-1 ds-col-lg-8 ds-offset-lg-2 ds-col-xl-6 ds-offset-xl-3 ds-align-text-center ds-shadow-text">
+              <p>
+             Have additional questions about ordering Global Voice Services ?
+              </p>
+            <p class="ds-margin-bottom-5">
+                Please consult <a href="https://w3.ibm.com/help/#/article/telephony_gvi_spoe/overview" target="_blank" class="ds-text-neutral-1">Help@IBM</a>.
+              </p>
+            <p class="ds-caption">* This website supports Mozilla Firefox, Google Chrome, IE and Safari.</p>
+            </div>
+            <div class="ds-col-xs-10 ds-offset-xs-1 ds-col-md-4 ds-offset-lg-2 ds-col-xl-2 ds-offset-xl-3 ds-align-text-center">
+              
+            </div>
+          </div>
+          </div>
+    
+    
+  </body>
+</html>

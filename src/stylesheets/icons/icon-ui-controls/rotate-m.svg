@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>rotate-m</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33,7.3096795 L33,4 L36,4 L36,13 L27,13 L27,10 L31.2790371,10 C28.4808797,6.03263859 23.5529718,3.5 18.0864456,3.5 C15.9406297,3.5 13.8584211,3.88667648 11.9329417,4.6261593 L10.8573808,1.82559351 C13.1258703,0.954377209 15.5726396,0.5 18.0864456,0.5 C24.0774013,0.5 29.5582377,3.10208198 33,7.3096795 Z M5.07808153,26 C7.89962689,29.6840737 12.5576455,32 17.6930167,32 C19.9104657,32 22.0587027,31.5721782 24.0317885,30.7565248 L25.1778889,33.5289702 C22.841922,34.494635 20.3043146,35 17.6930167,35 C11.8018362,35 6.40993837,32.4073264 3,28.2092652 L3,32 L0,32 L0,23 L9,23 L9,26 L5.07808153,26 Z M12,12 L24,12 L24,24 L12,24 L12,12 Z M15,15 L15,21 L21,21 L21,15 L15,15 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="rotate-m" fill="#232323" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

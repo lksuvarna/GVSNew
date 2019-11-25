@@ -1,0 +1,6 @@
+<svg width="23px" height="23px" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        clock
+    </title>
+    <path d="M21 12a9 9 0 1 0-18 0 9 9 0 0 0 18 0zm2 0c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11zM13 6h-2v7h7.003v-2H13V6z" fill="#232323"/>
+</svg>

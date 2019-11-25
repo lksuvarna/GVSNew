@@ -1,0 +1,17 @@
+<svg width="23px" height="23px" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        cart
+    </title>
+    <defs>
+        <path d="M10.987 18.013a1.75 1.75 0 1 1-2.474 2.474 1.75 1.75 0 0 1 2.474-2.474zm8 0a1.75 1.75 0 1 1-2.474 2.474 1.75 1.75 0 0 1 2.474-2.474zM9.497 14h9.014l1.807-6H7.636l1.86 6zM23.01 6l-3.013 10H8.023L4.613 5.002l-4.61.013-.006-2 6.088-.017L7.015 6H23.01z" id="a"/>
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+    </defs>
+    <g fill="#232323" fill-rule="evenodd">
+        <use xlink:href="#a"/>
+        <g mask="url(#b)">
+            <path d="M0 0h23v23H0z"/>
+        </g>
+    </g>
+</svg>

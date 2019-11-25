@@ -1,0 +1,9 @@
+<svg width="23px" height="23px" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        bar-chart
+    </title>
+    <defs>
+        <path d="M13 21V3h7v18h3v2H0V0h2v21h2V11h7v10h2zm2 0h3V5h-3v16zm-6 0v-8H6v8h3z" id="a"/>
+    </defs>
+    <use xlink:href="#a" fill-rule="evenodd"/>
+</svg>
